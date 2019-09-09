@@ -1,4 +1,6 @@
 import React from 'react';
+import Elm from 'react-elm-components';
+import MyElmComponent from './Hello.elm';
 import logo from './logo.svg';
 import './App.css';
 
@@ -7,6 +9,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <Elm src={MyElmComponent.Elm.Hello} />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
